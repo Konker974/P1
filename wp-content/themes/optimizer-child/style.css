@@ -1,0 +1,173 @@
+/*
+
+Theme Name : optimized
+
+Template:  optimizer
+
+*/
+
+#searchform{
+  padding-top: 10px;
+}
+
+.page_wrap #content{
+  margin-top: 130px;
+}
+
+.lay4{
+  margin-top: 130px;
+}
+
+html body .header{ position:fixed!important;}
+
+.header {
+  z-index: 12;
+}
+
+@media screen and (max-width: 1400px) {
+    .logo h1 a {
+      display: none;
+    }
+    .logo h2 a {
+      display: none;
+    }
+  }
+
+@media screen and (max-width: 1200px) {
+      thead{
+        display: none;
+      }
+      tr{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+      }
+      .css-events-list table.events-table td{
+      padding-top: 15px;
+      }
+      td{
+        overflow: hidden;
+      }
+      .td_description {
+        height: 250px;
+      }
+      .foot_right_wrap #footer_menu{
+        display: none;
+      }
+    }
+
+
+#sidr-id-searchform div{
+  text-align: center;
+}
+
+div .search_term {
+  margin-top: 120px;
+}
+
+.page_head {
+  margin-top: 120px;
+  display: none;
+}
+
+.flex_contnr{
+  display: flex;
+  padding: 15px;
+}
+
+.main_contnr{
+  flex-direction: column;
+}
+
+.td_description p{
+  max-height: 170px;
+  overflow: hidden;
+}
+
+.default-page-rule .type-page{
+  display: none;
+}
+
+.default_content {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+
+
+.default_time{
+  text-align: center;
+  margin: auto;
+  width: 20%;
+}
+
+.default_title{
+  margin: auto;
+  font-size: 2em;
+}
+
+/*aligne l'icone acceui lsur mobile*/
+.sidr ul li a i:nth-child(1){
+  vertical-align: baseline;
+  position: relative;
+  bottom: -5px;
+}
+
+.sidr ul li a span{
+  padding-left: 10px;
+}
+
+.widget_wrap ul li{
+  display: none;
+}
+.widget_wrap ul li:first-child{
+  display: unset;
+}
+
+.single_post_content .thn_post_wrap table tr:hover{
+  background-color: #D8FFE0;
+}
+
+.single_post_content .thn_post_wrap .default_content p .more-link{
+  color: black;
+}
+
+.input{
+  padding-left: 10px;
+}
+
+.thn_post_wrap .css-events-list table.events-table td {
+  padding-left: 15px;
+  padding-right: 5px;
+}
+
+tbody tr td:nth-child(2){
+  font-weight: bold
+}
+
+p .more-link{
+  margin: 30px 60px;
+}
+
+.single_post .info_content{
+  margin-top: 25px;
+  background-color: #A33B31;
+}
+
+.single_metainfo .fa-comments, .single_metainfo .meta_comm, .single_metainfo .fa-th-list, .single_metainfo .catag_list{
+  display: none;
+}
+
+.events-table tbody tr td a:hover{
+  color: #A33B31;
+}
+
+.em-booking-form .em-booking-form-details{
+  width: 400px;
+}
+
+.em-booking-form-details textarea{
+  width: 360px;
+}
